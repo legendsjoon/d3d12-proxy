@@ -20,7 +20,7 @@
 	}                   \
   } while((void)0, 0)
 
-#define LOGGING_ACTIVE 
+//#define LOGGING_ACTIVE 
 
 #ifdef LOGGING_ACTIVE
 #define LOG(string) logprintf(string)
