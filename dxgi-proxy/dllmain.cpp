@@ -105,11 +105,11 @@ HRESULT WINAPI detGetDesc3(IDXGIAdapter4* This, /* [annotation][out] */ _Out_  D
 	{
 		LOG("IDXGIAdapter4.GetDesc3 Spoofing card info");
 		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		pDesc->DeviceId = 0x1C03;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
+		std::wstring name(L"NVIDIA GeForce GTX 1060");
 		const wchar_t* szName = name.c_str();
 		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
 		std::memcpy(pDesc->Description, szName, 54);
@@ -139,11 +139,11 @@ HRESULT WINAPI detGetDesc2(IDXGIAdapter2* This, /* [annotation][out] */ _Out_  D
 	{
 		LOG("IDXGIAdapter2.GetDesc2 Spoofing card info");
 		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		pDesc->DeviceId = 0x1C03;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
+		std::wstring name(L"NVIDIA GeForce GTX 1060");
 		const wchar_t* szName = name.c_str();
 		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
 		std::memcpy(pDesc->Description, szName, 54);
@@ -172,11 +172,11 @@ HRESULT WINAPI detGetDesc1(IDXGIAdapter1* This, /* [annotation][out] */ _Out_  D
 	{
 		LOG("IDXGIAdapter1.GetDesc1 Spoofing card info");
 		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		pDesc->DeviceId = 0x1C03;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
+		std::wstring name(L"NVIDIA GeForce GTX 1060");
 		const wchar_t* szName = name.c_str();
 		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
 		std::memcpy(pDesc->Description, szName, 54);
@@ -206,11 +206,11 @@ HRESULT WINAPI detGetDesc(IDXGIAdapter* This, /* [annotation][out] */ _Out_  DXG
 	{
 		LOG("IDXGIAdapter.GetDesc Spoofing card info");
 		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		pDesc->DeviceId = 0x1C03;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
+		std::wstring name(L"NVIDIA GeForce GTX 1060");
 		const wchar_t* szName = name.c_str();
 		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
 		std::memcpy(pDesc->Description, szName, 54);
