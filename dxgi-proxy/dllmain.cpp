@@ -104,15 +104,15 @@ HRESULT WINAPI detGetDesc3(IDXGIAdapter4* This, /* [annotation][out] */ _Out_  D
 	if (result == S_OK) // && (pDesc->VendorId == 0x8086 || pDesc->VendorId == 0x1002))
 	{
 		LOG("IDXGIAdapter4.GetDesc3 Spoofing card info");
-		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		//pDesc->VendorId = 0x10de;
+		//pDesc->DeviceId = 0x2507;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
-		const wchar_t* szName = name.c_str();
-		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
-		std::memcpy(pDesc->Description, szName, 54);
+		//std::wstring name(L"NVIDIA GeForce RTX 3050");
+		//const wchar_t* szName = name.c_str();
+		//std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
+		//std::memcpy(pDesc->Description, szName, 54);
 
 		//LUID luid = LUID{ 0, 0xDB1A };
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
@@ -138,15 +138,15 @@ HRESULT WINAPI detGetDesc2(IDXGIAdapter2* This, /* [annotation][out] */ _Out_  D
 	if (result == S_OK) // && (pDesc->VendorId == 0x8086 || pDesc->VendorId == 0x1002))
 	{
 		LOG("IDXGIAdapter2.GetDesc2 Spoofing card info");
-		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		//pDesc->VendorId = 0x10de;
+		//pDesc->DeviceId = 0x2507;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
-		const wchar_t* szName = name.c_str();
-		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
-		std::memcpy(pDesc->Description, szName, 54);
+		//std::wstring name(L"NVIDIA GeForce RTX 3050");
+		//const wchar_t* szName = name.c_str();
+		//std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
+		//std::memcpy(pDesc->Description, szName, 54);
 
 		//LUID luid = LUID{ 0, 0xDB1A };
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
@@ -171,15 +171,15 @@ HRESULT WINAPI detGetDesc1(IDXGIAdapter1* This, /* [annotation][out] */ _Out_  D
 	if (result == S_OK) // && pDesc->VendorId == 0x8086 || pDesc->VendorId == 0x1002)
 	{
 		LOG("IDXGIAdapter1.GetDesc1 Spoofing card info");
-		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		//pDesc->VendorId = 0x10de;
+		//pDesc->DeviceId = 0x2507;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
-		const wchar_t* szName = name.c_str();
-		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
-		std::memcpy(pDesc->Description, szName, 54);
+		//std::wstring name(L"NVIDIA GeForce RTX 3050");
+		//const wchar_t* szName = name.c_str();
+		//std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
+		//std::memcpy(pDesc->Description, szName, 54);
 
 		//LUID luid = LUID{ 0, 0xDB1A };
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
@@ -205,15 +205,15 @@ HRESULT WINAPI detGetDesc(IDXGIAdapter* This, /* [annotation][out] */ _Out_  DXG
 	if (result == S_OK) // && (pDesc->VendorId == 0x8086 || pDesc->VendorId == 0x1002))
 	{
 		LOG("IDXGIAdapter.GetDesc Spoofing card info");
-		pDesc->VendorId = 0x10de;
-		pDesc->DeviceId = 0x2507;
+		//pDesc->VendorId = 0x10de;
+		//pDesc->DeviceId = 0x2507;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
-		std::wstring name(L"NVIDIA GeForce RTX 3050");
-		const wchar_t* szName = name.c_str();
-		std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
-		std::memcpy(pDesc->Description, szName, 54);
+		//std::wstring name(L"NVIDIA GeForce RTX 3050");
+		//const wchar_t* szName = name.c_str();
+		//std::memset(pDesc->Description, 0, sizeof(pDesc->Description));
+		//std::memcpy(pDesc->Description, szName, 54);
 
 		//LUID luid = LUID{ 0, 0xDB1A };
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
