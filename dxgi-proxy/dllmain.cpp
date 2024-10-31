@@ -118,7 +118,7 @@ HRESULT WINAPI detGetDesc3(IDXGIAdapter4* This, /* [annotation][out] */ _Out_  D
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
 
 		//Spoof VRAM
-		pDesc->DedicatedVideoMemory = 6ULL * 1024 * 1024 * 1024;  // 6GB of VRAM lol
+		pDesc->DedicatedVideoMemory = 2ULL * 1024 * 1024 * 1024;  // 2GB of VRAM lol
 	}
 
 	AttachToAdapter(This);
@@ -152,7 +152,7 @@ HRESULT WINAPI detGetDesc2(IDXGIAdapter2* This, /* [annotation][out] */ _Out_  D
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
 		// 
 		//Spoof VRAM
-		pDesc->DedicatedVideoMemory = 6ULL * 1024 * 1024 * 1024;  // 6GB of VRAM lol
+		pDesc->DedicatedVideoMemory = 2ULL * 1024 * 1024 * 1024;  // 2GB of VRAM lol
 	}
 
 	AttachToAdapter(This);
@@ -185,7 +185,7 @@ HRESULT WINAPI detGetDesc1(IDXGIAdapter1* This, /* [annotation][out] */ _Out_  D
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
 
 		//Spoof VRAM
-		pDesc->DedicatedVideoMemory = 6ULL * 1024 * 1024 * 1024;  // 6GB of VRAM lol
+		pDesc->DedicatedVideoMemory = 2ULL * 1024 * 1024 * 1024;  // 2GB of VRAM lol
 	}
 
 	AttachToAdapter(This);
@@ -219,7 +219,7 @@ HRESULT WINAPI detGetDesc(IDXGIAdapter* This, /* [annotation][out] */ _Out_  DXG
 		//std::memcpy(&pDesc->AdapterLuid, &luid, 8);
 
 		//Spoof VRAM
-		pDesc->DedicatedVideoMemory = 6ULL * 1024 * 1024 * 1024;  // 6GB of VRAM lol
+		pDesc->DedicatedVideoMemory = 2ULL * 1024 * 1024 * 1024;  // 2GB of VRAM lol
 	}
 
 	AttachToAdapter(This);
