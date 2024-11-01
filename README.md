@@ -1,3 +1,8 @@
+# About this fork
+This fork adds VRAM capacity spoofing capabilitiy.
+
+Thank [cdozdil](https://github.com/cdozdil) for his wonderful work!
+
 # d3d12-proxy
 Graphics card spoofing libraries for DirectX
 
